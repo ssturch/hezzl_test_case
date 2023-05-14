@@ -85,7 +85,7 @@ func StartReader(ctx context.Context) error {
 }
 
 func main() {
-
+	fmt.Println("aaaaa")
 	ctx, cancel := context.WithCancel(context.Background())
 
 	sigChan := make(chan os.Signal, 1)

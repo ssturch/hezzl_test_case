@@ -13,7 +13,7 @@ import (
 
 func main() {
 	var err error
-
+	fmt.Println("wdawdawd")
 	ctx, cancel := context.WithCancel(context.Background())
 
 	pgdb, err := dbp.Pgdbconnect()
